@@ -1,5 +1,6 @@
 [package]
 name = "fritz_guess"
+description = "Fritz Workbook Toolset (fritz-guess): guesses the separator used by a csv file"
 version = "0.1.0"
 authors = ["Martijn M.W. Gribnau <garm@ilumeo.com>"]
 license = "Apache-2.0"
