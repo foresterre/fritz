@@ -1,0 +1,17 @@
+**/target/
+**/*.rs.bk
+
+# intellij
+.idea/
+*.iws
+.idea_modules/
+*.iml
+
+# vscode
+.vscode/
+
+# lockfile
+Cargo.lock
+
+# WIP
+crates/fritz_select

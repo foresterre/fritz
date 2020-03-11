@@ -1,0 +1,24 @@
+[package]
+name = "fritz"
+description = "Fritz Workbook Toolset"
+version = "0.1.0"
+authors = ["Martijn M.W. Gribnau <garm@ilumeo.com>"]
+edition = "2018"
+license = "Apache-2.0"
+repository = "https://github.com/foresterre/fritz"
+exclude = [
+    ".idea/*",
+    ".vscode/*",
+    "*.iml",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fritz_guess = { version = "0.1.0", path = "crates/fritz_guess" }
+
+
+[workspace]
+members = [
+    "crates/fritz_guess"
+]
